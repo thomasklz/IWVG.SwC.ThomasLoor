@@ -31,4 +31,8 @@ public class Fraction {
         return this.numerator<this.denominator;
     }
     
+    public void incrementNumerator() {
+        this.numerator++;
+    }
+    
 }
