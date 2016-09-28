@@ -42,5 +42,10 @@ public class FractionTest {
 	    fraction.incrementNumerator();
         assertEquals(3, fraction.getNumerator());
     }
+	
+	@Test
+    public void testSumNumeratorAndDenominator(){
+        assertEquals(6, fraction.sumNumeratorAndDenominator());
+    }
 
 }

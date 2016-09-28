@@ -35,4 +35,8 @@ public class Fraction {
         this.numerator++;
     }
     
+    public int sumNumeratorAndDenominator(){
+        return this.numerator+this.denominator;
+    }
+    
 }
