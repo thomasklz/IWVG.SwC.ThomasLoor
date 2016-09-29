@@ -43,4 +43,8 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
     
+    public int multiplyCoords() {
+        return this.x * this.y;
+    }
+    
 }

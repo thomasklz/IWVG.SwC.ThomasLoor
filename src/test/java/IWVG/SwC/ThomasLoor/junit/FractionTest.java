@@ -31,5 +31,21 @@ public class FractionTest {
 	public void testDecimal(){
 		assertEquals(0.5, fraction.decimal(), 10e-5);
 	}
+	
+	@Test
+    public void testIsPropia(){
+        assertTrue(fraction.isPropia());
+    }
+	
+	@Test
+    public void testIncrementNumerator(){
+	    fraction.incrementNumerator();
+        assertEquals(3, fraction.getNumerator());
+    }
+	
+	@Test
+    public void testSumNumeratorAndDenominator(){
+        assertEquals(6, fraction.sumNumeratorAndDenominator());
+    }
 
 }

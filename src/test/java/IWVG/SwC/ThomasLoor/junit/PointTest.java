@@ -50,5 +50,10 @@ public class PointTest {
         assertEquals(1, pt.getX());
         assertEquals(2, pt.getY());
     }
+    
+    @Test
+    public void testMultiplyCoords() {
+        assertEquals(6, pt.multiplyCoords());
+    }
 
 }

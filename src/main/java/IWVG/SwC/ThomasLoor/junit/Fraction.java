@@ -27,4 +27,16 @@ public class Fraction {
         return denominator;
     }
     
+    public boolean isPropia() {
+        return this.numerator<this.denominator;
+    }
+    
+    public void incrementNumerator() {
+        this.numerator++;
+    }
+    
+    public int sumNumeratorAndDenominator(){
+        return this.numerator+this.denominator;
+    }
+    
 }
